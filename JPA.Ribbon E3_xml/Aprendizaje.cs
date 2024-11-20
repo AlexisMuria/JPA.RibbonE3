@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace JPA.Ribbon_E3_xml
 {
-    public partial class Aprendizaje : MaterialSkin.Controls.MaterialForm
+    public partial class Aprendizaje : Form
     {
         // Diccionario para almacenar los títulos de los cursos y sus URLs
         private readonly Dictionary<string, string> videos = new Dictionary<string, string>
@@ -59,7 +59,7 @@ namespace JPA.Ribbon_E3_xml
                         bottom: 0;
                         transition: transform 0.3s ease;
                         z-index: 2;
-                        padding-top: 65px;  /* Asegura que el contenido no se tape con el botón */
+                        padding-top: 65px;  
                     }}
                     #sidebar.hidden {{
                         transform: translateX(-100%);

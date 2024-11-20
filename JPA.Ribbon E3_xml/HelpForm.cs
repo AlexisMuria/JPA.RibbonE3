@@ -7,7 +7,7 @@ using Word = Microsoft.Office.Interop.Word;
 
 namespace JPA.Ribbon_E3_xml
 {
-    public partial class HelpForm : MaterialSkin.Controls.MaterialForm
+    public partial class HelpForm : Form
     {
         public HelpForm()
         {

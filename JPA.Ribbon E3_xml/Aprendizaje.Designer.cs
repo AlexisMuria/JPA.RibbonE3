@@ -37,10 +37,10 @@
             // 
             // webBrowser1
             // 
-            this.webBrowser1.Location = new System.Drawing.Point(1, 64);
+            this.webBrowser1.Location = new System.Drawing.Point(1, 0);
             this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(1009, 610);
+            this.webBrowser1.Size = new System.Drawing.Size(1009, 674);
             this.webBrowser1.TabIndex = 11;
             // 
             // rjButton2
@@ -113,7 +113,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1011, 714);
             this.Controls.Add(this.rjButton2);
             this.Controls.Add(this.rjButton4);
@@ -126,6 +126,7 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cursos Formativos Notaword";
+            this.TransparencyKey = System.Drawing.Color.White;
             this.Load += new System.EventHandler(this.Aprendizaje_Load);
             this.ResumeLayout(false);
 
