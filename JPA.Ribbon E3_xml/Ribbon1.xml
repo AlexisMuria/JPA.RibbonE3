@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load" loadImage="GetImage">
+	<commands>
+		<command idMso="FileNewBlankDocument" />
+		<command idMso="FileNewDefault" />
+	</commands>
+	<ribbon>
+		<tabs>			
+			
+																				<!--Pestañas Personalizadas-->
+			<tab id="Tab" label="Inicio" insertBeforeMso="TabInsert">
+				<group idMso="GroupClipboard" />
+				<group idMso="GroupFont" />
+				<group idMso="GroupParagraph" />
+				<group idMso="GroupEditing" />
+				<group idMso="GroupResearch" />
+				<group idMso="GroupPageBackground" />
+				<group idMso="GroupPageSetup" />
+				<group idMso="GroupParagraph" />
+				<group idMso="GroupPageLayoutSetup" />
+				<group idMso="GroupParagraphLayout" />	
+			</tab>					
+			
+																				<!--Pestañas De Word que no estan ocultas-->
+			<tab idMso="TabInsert" insertBeforeMso="TabReferences" visible="true" ></tab>
+			<tab idMso="TabView" insertBeforeMso="TabDeveloper" visible="true" />
+			<tab idMso="TabReview" visible="true" />
+			
+																				<!--Pestaña que se Ocultan -->
+			<tab idMso="TabHome" visible="false" />
+			<tab idMso="TabDesign" visible="false" />
+			<tab idMso="TabReferences" visible="false" />
+			<tab idMso="TabMailings" visible="false" />
+			<tab idMso="TabDeveloper" visible="false" />
+			<tab idMso="TabDrawInk" visible="false" />
+			<tab idMso="HelpTab" visible="false"/>
+			<tab idMso="TabWordDesign" visible="false" />
+			<tab idMso="TabOutlining" visible="false" />
+			<tab idMso="TabDrawingToolsFormat" visible="false" />
+			<tab idMso="TabDrawingToolsFormatClassic" visible="false" />
+			<tab idMso="TabPageLayoutWord" visible="false" />
+			
+																			<!--Pestaña Ayuda NotaWordE3-->
+			<tab id="Ayuda" label="Ayuda NotawordE3" insertBeforeMso="TabHelp">
+				<group id="Grupo_Ayuda" label="Ayuda">
+					<button id="Btn_ayuda" size="large" imageMso="TentativeAcceptInvitation" label="Ayuda"  screentip="Ayuda NotaWordE3" supertip="Informacion Para los errores mas comunes en el NotaWordE3" onAction="ShowHelpForm"/>
+					<button id="Btn_soporte_Tenico" size="large" imageMso="TechnicalSupport" label="Soporte Técnico Jpa" screentip="Soporte Tècnico Jpa" supertip="Acceso rapido a la web de soporte de jpa" onAction="OpenSupportLink"/>
+					<button id="Aprendizaje" size="large" imageMso="ResourceFormView" label="Aprender NotaWordE3" screentip="Cursos De NotaWordE3" supertip="Muestra los cursos de NotaWordE3" onAction="AprendizajeForm"/>
+				</group>
+				<group id="Grupo_Novedades" label="Novedades" >
+					<menu id="Menu_notawordE3" imageMso="RefreshStatus" screentip="Acerca de NotaWordE3" label="Acerca de NotaWordE3" size="large" itemSize="large">
+						<button id="Btn_Acerca_de" imageMso="RulesFeedback" screentip="Acerca de NotaWordE3"  label="Acerca de" />
+						<button id="Btn_Actualizaciones" imageMso="FunctionsInformationInsertGallery" screentip="Ver Actualizaciones"  label="Ver Actualizaciones" />
+					</menu>
+					<button id="Btn_Novedades" label="Novedades" size="large" imageMso="NewAlert"/>
+				</group>
+			</tab>			
+			
+																				<!--Pestañas NotaWordE3-->			
+			<tab id="NotawordE3" label="NotaWordE3" insertBeforeMso="TabHome">
+				<group id="Grup_Ficheros" label="Ficheros">
+					<button id="Btn_Nuevo" imageMso="NewTextFileHere" screentip="Nuevo Documento" supertip="Crear un nuevo Documentos en Blanco" label="Nuevo" size="large" />
+					<button id="Btn_Guardar" imageMso="FileSave" screentip="Guardar" supertip="Guarda los cambios en el documento" label="Guardar" size="large" />
+					<button id="Btn_Guardar_Como" imageMso="FileSaveAs" screentip="Guardar Como" label="Guardar Como" size="large" />
+					<button id="Btn_Abrir" imageMso="ArrangeByFolder" screentip="Listado de Archivo" supertip="Alt + Intro" label="Abrir" size="large" />
+					<button id="Btn_Firmas" imageMso="SaveAndClose" screentip="Copiar archivo activo al directorio Firma" supertip="Ctrl + S" label="Firmas" size="large" />
+					<button id="Btn_Protolizar" imageMso="SaveAsQuery" screentip="Protocolizar Documentos o Poliza" supertip="Ctrl + P" label="Protocolizar" size="large" />
+					<button id="Btn_Llamar_Protocolo" imageMso="AdpDiagramTableModesMenu" screentip="Llamar Protocolo" label="Llamar Protocolo" size="large" />
+					<button id="Btn_Impresora" imageMso="PrintMenu" screentip="Imprime Documentos" supertip="Ctrl + I" label="Impresora" size="large" />
+					<button id="Btn_PDF"  image="Pdf2" screentip="Convertir en PDF" label="PDF" size="large" showImage="true" />
+					<button id="Btn_Encriptar_PDF"  image="CerrarPdf" screentip="Conversión y Encriptación PDF" label="Encriptar PDF" size="large" />
+					<button id="Btn_NotaSearch"  image="NotaSearch"  screentip="Buscador De Documentos" supertip="Ctrl + Y" label="NotaSearch" size="large" />
+				</group>
+				<group id="grup_Opciones" label="Opciones">
+					<button id="Btn_Oficiales" imageMso="ArrangeByAccount" onAction="ToggleOficialesVisibility" screentip="Expadir Oficiales" supertip="Expander la barra para mostrar todas las funciones de los oficiales" label="Oficiales" size="large" />
+					<button id="Btn_Copias" imageMso="AssignTask" onAction="ToggleCopiasVisibility" screentip="Expadir Copias" supertip="Expander la barra para mostrar todas las funciones de Copias" label="Copias" size="large" />
+					<button id="Btn_Herramientas" imageMso="AddInsMenu" onAction="ToggleHerramientasVisibility" screentip="Expadir Herramientas" supertip="Expander la barra para mostrar  todas las herrramientas" label="Herramientas" size="large" />
+				</group>
+				<group id="grup_Copias" label="Copias" getVisible="GetCopiasVisibility" >
+					<button id="Btn_C_Simple" imageMso="OLCopyTrackingStatus" supertip="Ctrl + J" label="Simple" size="large" />
+					<button id="Btn_C_Autorizada" imageMso="SetFieldAsTitle" screentip="Formato Copia Autorizada" supertip="Ctrl + K" label="Autorizada" size="large" />
+					<button id="Btn_Escanear_Unidos" imageMso="FormsToolImportMenu" screentip="Escaner Documentos Unidos y DNI's" supertip="Ctrl + X" label="Unidos" size="large" />
+					<button id="Btn_F_Cedula" imageMso="TableOfContentsDialog" screentip="Formato Cedula" supertip="Shift + Alt + D" label="Cedula" size="large" />
+					<button id="Btn_C_Eletronica" imageMso="WebSiteMapPageCentricView" screentip="Formato Copia Eletronica" supertip="Alt + K" label="Electrónica" size="large" />
+					<button id="Btn_Mostrar_Notas" imageMso="RulesManager" screentip="Mostrar Nota de Copia Matriz" label="Notas" size="large" />
+					<button id="Btn_Testimonio" imageMso="SourceControlShareObjects" screentip="Crear Testimonio" supertip="Alt + T" label="Testimonio" size="large" />
+					<separator id="separator2" />
+					<button id="Btn_DNI_Complusa" imageMso="GroupDataNotepadTool" screentip="Mostrar DNI's y Hacer Compulsa " label="Mostrar DNI's" size="large" />
+					<button id="Btn_C_S_En_Masa" imageMso="GroupViewsInfoPath" screentip="Copia Simple En Masa" label="Copia Simple En Masa" size="large" />
+					<separator id="separator5" />
+					<button id="Btn_Crear_Poliza" imageMso="ApplyMasterPage1" screentip="Crea Poliza" supertip="Shift + Alt + Q" label="Crear Poliza" size="large" />
+					<separator id="separator1" />
+					<button id="Btn_Etiquetas" imageMso="GroupAttachmentSelection" screentip="Etiquetas" label="Etiquetas" size="large" />
+					<separator id="separator3" />
+					<button id="Btn_Comprimir_Imagen" imageMso="ControlLogo" screentip="Comprimir Imagen" label="Comprimir Imagen" />
+					<button id="Btn_Reducir_Tamaño" imageMso="ReplicationResolveConflicts" screentip="Reducir Tamaños de Unidos" label="Reducir Tamaños de Unidos" />
+				</group>
+				<group id="grup_Herramientas" label="Herramientas" getVisible="GetHerramientasVisibility">
+					<button id="Btn_Protocolo_Remoto" imageMso="CheckOutFile" screentip="Llamar Protocolo Remoto" label="Protocolo Remoto" size="large" />
+					<button id="Btn_Subir_Remoto" imageMso="GroupBlogPublish" screentip="Subir Protocolo Remoto" label="Subir Remoto" size="large" />
+					<separator id="separator6" />
+					<button id="Btn_Catastro" image="Catastro" screentip="Consulta Catastro" supertip="Shift + Alt +  A" label="Catastro" size="large" />
+					<menu id="Menu_AutoTexto" imageMso="GroupMeetingsToolAppointmentNotesOptions" screentip="Auto Texto" label="AutoTexto" size="large" itemSize="large">
+						<button id="Btn_Insertar_Texto" imageMso="ReviewTrackChanges" screentip="Inserta Auto Texto NotaWordE3" supertip="F3" label="Insertar Texto" />
+						<button id="Btn_Guardar_Texto" imageMso="SaveSelectionToTableOfContentsGallery" screentip="Guarda  Auto Texto NotaWordE3" supertip="Ctrl + F3" label="Guardar Texto" />
+					</menu>
+					<button id="Btn_BD" imageMso="CostResourceInsert" screentip="BD" label="BD" size="large" />
+					<button id="Btn_GestorObjetos" imageMso="BibliographyGallery" screentip="Gestor de Objetos" label="Gestor de Objetos" size="large" />
+					<button id="Btn_Limpiar_y_Desbloquear" imageMso="OptionReadOnlySnapshot" screentip="Desbloquear y Limpiar Documento Protegido a un Documentos en Blanco" supertip="Alt + N" label="Desbloquear y Limpiar" size="large" />
+					<button id="Btn_Insertar_Documentos" imageMso="OptionEditableFormAttachTemplate" screentip="Insertar Documentos unidos o Dni's en la Matriz" label="Insertar Documentos" size="large" />
+					<button id="Btn_Arancel" imageMso="GroupListFormsNew" screentip="Poner Arancel" label="Poner Arancel" size="large" />
+					<button id="Btn_Comprobar" imageMso="GoToPageVisio" screentip="Comprobar DNI´s, NIF's, Catastro y Cuenta Corriente" supertip="Ctrl + N" label="Comprobar DNI´s" size="large" />
+					<button id="Btn_BuscardorIC" imageMso="FileVersionHistory" screentip="Buscador de inverciones, Comparecencias, etc." supertip="Shift + Alt + Y" label="Buscador de inverciones" size="large" />
+					<button id="Btn_Agenda" imageMso="DateInsert" screentip="Mostrar Agenda" supertip="Ctrl + Shift + A" label="Agenda" size="large" />
+					<button idMso="FileEmailAsPdfEmailAttachment" size="large"/>
+					<button id="Btn_Escaner"  imageMso="NewPageFromTemplate"  label="Desde Escaner o camara" size="large" />
+				</group>
+				<group id="grup_Oficiales" label="Oficiales" getVisible="GetOficialesVisibility">
+					<button id="Btn_F_Matriz" imageMso="NewTextFile" screentip="Formato Matriz" supertip="Ctrl + F" label="Matriz" size="large" />
+					<button id="Btn_F_M_Idioma" imageMso="FloorPlanDisplayOptions" screentip="Formato Matriz en Otro Idioma" supertip="Ctrl + Shift + F" label="Matriz Otro Idioma" size="large" />
+					<button id="Btn_F_Doble_Columna" imageMso="ColumnsDialog" screentip="Formato Doble Columna" supertip="Alt + C" label="Doble Columna" size="large" />
+					<button id="Btn_F_Borrador" imageMso="TableOfFiguresInsert" screentip="Formato Borrador" supertip="Alt + B" label="Borrador" size="large" />
+					<button id="Btn_Final" imageMso="DataGraphicEditItem" screentip="Incluir Final Automatico de Escritura" supertip="Ctrl + T" label="Final" size="large" />
+					<button id="Btn_Mostrar_DMP" imageMso="NewNotepadTool" screentip="Mostrar Diligencia, Matriz y Poliza" label="Mostrar Diligencia" size="large" />
+					<separator id="separator4" />
+					<button id="Btn_Codigo_Postal" imageMso="EmailMergeStart" screentip="Codigo Postal CPX3.0" label="Codigo Postal" size="large" />
+					<separator id="separator8" />
+					<button id="Btn_Matar_Linea" imageMso="BuildOrderChangeGallery" screentip="Mata la Linea Actual" supertip="- (Numerico)" label="Matar Linea Actual" />
+					<button id="Btn_Matar_Todo" imageMso="Bullets" screentip="Mata Todo el Documento" supertip="Ctrl + - (Numerico)" label="Matar Todo" />
+					<button id="Btn_Q_Matado" image="Puntos" screentip="Quita el Matado en Todo el Documento" supertip="Ctrl + Alt + - (Numerico)" label="Quitar Matado" />
+					<button id="Btn_Central_Linea" imageMso="AlignCenter" screentip="Centra Linea" supertip="Ctrl + C" label="Central Linea" />
+					<button id="Btn_Desproteger_Modelo" imageMso="FileDocumentEncrypt" screentip="Desprotege el Modelo " supertip="Shift + Alt + D" label="Desproteger Modelo" />
+					<button id="Btn_MetroCuadrado" imageMso="RulerShowHide" screentip="Conversión a  Metro Cuadrado" supertip="Ctrl + Shift + W " label="Metro Cuadrado" />
+					<button id="Btn_Euros" imageMso="InternationalCurrency" screentip="Conversión a Euros" supertip="Alt + L" label="Euros" />
+					<button id="Btn_Porcentaje" imageMso="GroupNumber" screentip="Conversión a Tanto Por Ciento" supertip="Alt + w" label="Porcentaje" />
+					<button id="Btn_Hectareas" imageMso="MailMergeCreateList" screentip="Conversión a  Hectareas" supertip="Shift + Alt + H" label="Hectareas" />
+					<button id="Btn_Poner_Coeficiente" imageMso="PageNumberTopRight" screentip="Donde Va El Coeficiente" label="Poner Coeficiente" />
+					<button id="Btn_Calcular_Coeficiente" imageMso="PageNumberFormat" screentip="Calcular Coeficioente" label="Calcular Coeficioente" />
+					<button id="Btn_Fecha_Hora" imageMso="GroupHeaderFooterElements" screentip="Inserta Fecha y Hora" supertip="Alt + H" label="Fecha y Hora" />
+					<button id="Btn_Fecha" imageMso="OpenAttachedCalendar" screentip="Inserta Fecha " supertip="Alf + D" label="Fecha " />
+					<button id="Btn_Insertar_Intervalos" imageMso="DownloadHeaders" screentip="Insetar Intervalos" label="Insetar Intervalos" />
+					<button id="Btn_Pies_Encabezados" imageMso="GoToFooter" screentip="Limpiar Encabezado y Pies" supertip="Ctrl + Shift + B" label="Limpiar Encabezados y Pies" />
+				</group>
+			</tab>
+		</tabs>
+	</ribbon>
+																				<!--backatage pestaña-->
+	<backstage>	
+		<button idMso="FileSave" visible="true"/> <!--Guardar-->
+		<button idMso="FileClose" visible="true"/> <!--Cerrar-->
+		<button idMso="HistoryTab" visible="false"/> <!--Historial-->
+		<button idMso="ApplicationOptionsDialog" visible="true"/> <!--Optiones-->
+		<tab idMso="TabInfo" visible="false"/> <!--Informacion-->
+		<tab idMso="TabRecent" visible="false"/><!--Abrir-->
+		<tab idMso="TabPrint" visible="false"/><!--Imprimir-->
+		<tab idMso="TabShare" visible="false"/><!--Compartir-->
+		<tab idMso="TabHelp" visible="true"/><!--Cuenta-->
+		<tab idMso="TabPublish" visible="false"/><!--Exportar-->
+		<tab idMso="TabSave" visible="true"/><!--Guardar Como-->
+		<tab idMso="TabOfficeStart" visible="false"/><!--Nuevo-->
+		 <tab idMso="PlaceTabHome" visible="true"/><!--Inicio-->
+		<tab id="Btn_Opciones" label="Opciones NotaWordE3" />
+	</backstage>
+
+</customUI>
+

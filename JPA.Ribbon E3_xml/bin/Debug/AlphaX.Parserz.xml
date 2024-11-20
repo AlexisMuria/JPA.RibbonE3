@@ -1,0 +1,450 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AlphaX.Parserz</name>
+    </assembly>
+    <members>
+        <member name="M:AlphaX.Parserz.HelperExtensions.ToDoubleResult(AlphaX.Parserz.ArrayResult)">
+            <summary>
+            Converts array result to double result. Returns 0 if conversion fails.
+            </summary>
+            <param name="arrayResult"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AlphaX.Parserz.HelperExtensions.ToStringResult(AlphaX.Parserz.ArrayResult)">
+            <summary>
+            Converts array result to string result.
+            </summary>
+            <param name="arrayResult"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AlphaX.Parserz.HelperExtensions.ToDoubleResult(AlphaX.Parserz.StringResult)">
+            <summary>
+            Converts string result to double result.
+            </summary>
+            <param name="stringResult"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AlphaX.Parserz.HelperExtensions.ToBooleanResult(AlphaX.Parserz.StringResult)">
+            <summary>
+            Converts string result to boolean result.
+            </summary>
+            <param name="stringResult"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AlphaX.Parserz.ParserExtensions.MapError``1(AlphaX.Parserz.IParser{``0},System.Func{AlphaX.Parserz.IParserError,AlphaX.Parserz.IParserError},System.Boolean)">
+            <summary>
+            Transforms the error of parser.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="parser"></param>
+            <param name="errorMap"></param>
+            <param name="allowTrace"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AlphaX.Parserz.ParserExtensions.MapError(AlphaX.Parserz.IParser,System.Func{AlphaX.Parserz.IParserError,AlphaX.Parserz.IParserError},System.Boolean)">
+            <summary>
+            Transforms the error of parser.
+            </summary>
+            <param name="parser"></param>
+            <param name="errorMap"></param>
+            <param name="allowTrace"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AlphaX.Parserz.ParserExtensions.MapResult``2(AlphaX.Parserz.IParser{``0},System.Func{``0,``1},System.Boolean)">
+            <summary>
+            Transforms the result of parser.
+            </summary>
+            <typeparam name="TIn"></typeparam>
+            <typeparam name="TOut"></typeparam>
+            <param name="parser"></param>
+            <param name="resultMap"></param>
+            <param name="allowTrace"></param>
+            <returns>A result mapped parser.</returns>
+        </member>
+        <member name="M:AlphaX.Parserz.ParserExtensions.MapResult(AlphaX.Parserz.IParser,System.Func{AlphaX.Parserz.IParserResult,AlphaX.Parserz.IParserResult},System.Boolean)">
+            <summary>
+            Transforms the result of parser.
+            </summary>
+            <param name="parser"></param>
+            <param name="resultMap"></param>
+            <param name="allowTrace"></param>
+            <returns>An error mapped parser.</returns>
+        </member>
+        <member name="M:AlphaX.Parserz.ParserExtensions.Next(AlphaX.Parserz.IParser,System.Func{AlphaX.Parserz.IParserResult,AlphaX.Parserz.IParser},System.Boolean)">
+            <summary>
+            Creates a parser chain by appending a new parser to the this parser based on the result.
+            </summary>
+            <param name="previousParser"></param>
+            <param name="nextParserFunc"></param>
+            <param name="allowTrace"></param>
+            <returns>A chained parser.</returns>
+        </member>
+        <member name="M:AlphaX.Parserz.ParserExtensions.AndThen(AlphaX.Parserz.IParser,AlphaX.Parserz.IParser,System.Boolean)">
+            <summary>
+            Creates a sequence of parsers that will result in success state if all the parsers are successfull.
+            </summary>
+            <param name="parser"></param>
+            <param name="nextParser"></param>
+            <param name="allowTrace"></param>
+            <returns>A sequence of parser.</returns>
+        </member>
+        <member name="M:AlphaX.Parserz.ParserExtensions.Or(AlphaX.Parserz.IParser,AlphaX.Parserz.IParser,System.Boolean)">
+            <summary>
+            Creates a choice of parsers that will result in success state if any of the parser is successfull.
+            </summary>
+            <param name="parser"></param>
+            <param name="nextParser"></param>
+            <param name="allowTrace"></param>
+            <returns>A choice parser.</returns>
+        </member>
+        <member name="M:AlphaX.Parserz.ParserExtensions.Many(AlphaX.Parserz.IParser,System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            Creates a many parser that will run the provided parser continuously 
+            on an input string until it fails or reaches the input end.
+            </summary>
+            <param name="parser"></param>
+            <param name="minCount">Minimum number of times that the parser should successfully run</param>
+            <param name="maxCount">Maximum number of times that the parser should successfully run. Note: Skips this check if value is -1.</param>
+            <param name="allowTrace"></param>
+            <returns>A many parser</returns>
+        </member>
+        <member name="M:AlphaX.Parserz.ParserExtensions.ManySeptBy(AlphaX.Parserz.IParser,AlphaX.Parserz.IParser,System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            Creates a many seperated by parser that will run the provided parser continuously 
+            on an input string until it fails or reaches the input end.
+            </summary>
+            <param name="parser"></param>
+            <param name="septByParser"></param>
+            <param name="minCount">Minimum number of times that the parser should successfully run</param>
+            <param name="maxCount">Maximum number of times that the parser should successfully run. Note: Skips this check if value is -1.</param>
+            <param name="allowTrace"></param>
+            <returns>A many parser</returns>
+        </member>
+        <member name="M:AlphaX.Parserz.ParserExtensions.EndOfInput(AlphaX.Parserz.IParser)">
+            <summary>
+            A parser to check the end of an input.
+            </summary>
+            <param name="parser"></param>
+            <returns>End of input parser</returns>
+        </member>
+        <member name="T:AlphaX.Parserz.ICloneable`1">
+            <summary>
+            Interface for cloning items of type <typeparamref name="T"/>
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:AlphaX.Parserz.ICloneable`1.Clone">
+            <summary>
+            Creates a clone of <typeparamref name="T"/>.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:AlphaX.Parserz.IParser">
+            <summary>
+            Interface that represents a parser.
+            </summary>
+        </member>
+        <member name="M:AlphaX.Parserz.IParser.Run(System.String)">
+            <summary>
+            Runs the parser for input string.
+            </summary>
+            <param name="input">The input to parse</param>
+            <returns>A success/error parser state</returns>
+        </member>
+        <member name="M:AlphaX.Parserz.IParser.Parse(AlphaX.Parserz.IParserState)">
+            <summary>
+            Parses an input state to a new success/error state.
+            </summary>
+            <param name="inputState">The input state to parse</param>
+            <returns></returns>
+        </member>
+        <member name="T:AlphaX.Parserz.IParser`1">
+            <summary>
+            Interface that represents a generic parser.
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="T:AlphaX.Parserz.IParserError">
+            <summary>
+            Interface that represents parser error.
+            </summary>
+        </member>
+        <member name="P:AlphaX.Parserz.IParserError.Index">
+            <summary>
+            Index of the input where parsing failed.
+            </summary>
+        </member>
+        <member name="P:AlphaX.Parserz.IParserError.Message">
+            <summary>
+            Gets the error message.
+            </summary>
+        </member>
+        <member name="T:AlphaX.Parserz.IParserResult">
+            <summary>
+            Interface that represents a parser result.
+            </summary>
+        </member>
+        <member name="P:AlphaX.Parserz.IParserResult.Type">
+            <summary>
+            Gets the result type
+            </summary>
+        </member>
+        <member name="T:AlphaX.Parserz.IParserResult`1">
+            <summary>
+            Interface that represents a parser result of type <typeparamref name="T"/>
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:AlphaX.Parserz.IParserResult`1.Value">
+            <summary>
+            Gets the value.
+            </summary>
+        </member>
+        <member name="T:AlphaX.Parserz.IParserState">
+            <summary>
+            Interface that represents a parser state.
+            </summary>
+        </member>
+        <member name="P:AlphaX.Parserz.IParserState.Index">
+            <summary>
+            Gets or state the current state index.
+            </summary>
+        </member>
+        <member name="P:AlphaX.Parserz.IParserState.ActualInput">
+            <summary>
+            Gets or sets the actual input.
+            </summary>
+        </member>
+        <member name="P:AlphaX.Parserz.IParserState.Input">
+            <summary>
+            Gets the input string for this state.
+            </summary>
+        </member>
+        <member name="P:AlphaX.Parserz.IParserState.IsError">
+            <summary>
+            Gets if the state has error.
+            </summary>
+        </member>
+        <member name="P:AlphaX.Parserz.IParserState.Result">
+            <summary>
+            Gets or sets the result of this state.
+            </summary>
+        </member>
+        <member name="P:AlphaX.Parserz.IParserState.Error">
+            <summary>
+            Gets or sets the error of this state.
+            </summary>
+        </member>
+        <member name="P:AlphaX.Parserz.Parser.Letter">
+            <summary>
+            Gets the letter parser.
+            </summary>
+        </member>
+        <member name="P:AlphaX.Parserz.Parser.WhiteSpace">
+            <summary>
+            Gets the white space parser.
+            </summary>
+        </member>
+        <member name="P:AlphaX.Parserz.Parser.WhiteSpaces">
+            <summary>
+            Gets the white spaces parser.
+            </summary>
+        </member>
+        <member name="P:AlphaX.Parserz.Parser.Digit">
+            <summary>
+            Gets the digit parser.
+            </summary>
+        </member>
+        <member name="P:AlphaX.Parserz.Parser.Boolean">
+            <summary>
+            Gets the boolean parser.
+            </summary>
+        </member>
+        <member name="P:AlphaX.Parserz.Parser.EndOfInput">
+            <summary>
+            Gets the end of input parser.
+            </summary>
+        </member>
+        <member name="M:AlphaX.Parserz.Parser.AnyLetterOrDigit(AlphaX.Parserz.ParseMode)">
+            <summary>
+            Gets the any letter or digit parser.
+            </summary>
+            <param name="mode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AlphaX.Parserz.Parser.AnyLetter(AlphaX.Parserz.ParseMode)">
+            <summary>
+            Gets the letter parser.
+            </summary>
+            <param name="mode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AlphaX.Parserz.Parser.Char(System.Char)">
+            <summary>
+            Gets the character parser.
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AlphaX.Parserz.Parser.String(System.String,System.Boolean)">
+            <summary>
+            Gets the string parser.
+            </summary>
+            <param name="value"></param>
+            <param name="matchCase"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AlphaX.Parserz.Parser.UntilFound(System.String,System.Boolean,System.Boolean)">
+            <summary>
+            Gets the until parser.
+            </summary>
+            <param name="selector">Parses the input until selector is found</param>
+            <param name="matchCase"></param>
+            <param name="allowTrace"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AlphaX.Parserz.Parser.StringValue(System.Boolean,System.Boolean)">
+            <summary>
+            Gets the string value parser.
+            </summary>
+            <param name="doubleQuotes">Specifies to parse double quoted string otherwise single quoted string</param>
+            <param name="allowTrace"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AlphaX.Parserz.Parser.Number(System.Boolean,System.Boolean)">
+            <summary>
+            Gets the number parser.
+            </summary>
+            <param name="canParseDecimal"></param>
+            <param name="allowTrace"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AlphaX.Parserz.Parser.Lazy(System.Func{AlphaX.Parserz.IParser},System.Boolean)">
+            <summary>
+            Gets the lazy parser.
+            </summary>
+            <param name="parser"></param>
+            <param name="allowTrace"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AlphaX.Parserz.Parser.FromResult(AlphaX.Parserz.IParserResult,System.Boolean)">
+            <summary>
+            Gets the parser which acts as a proxy parser to return a result.
+            </summary>
+            <param name="result"></param>
+            <param name="allowTrace"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AlphaX.Parserz.Parser.FromError(AlphaX.Parserz.IParserError,System.Boolean)">
+            <summary>
+            Gets the parser which acts as a proxy parser to return an error.
+            </summary>
+            <param name="error"></param>
+            <param name="allowTrace"></param>
+            <returns></returns>
+        </member>
+        <member name="T:AlphaX.Parserz.Parser`1">
+            <summary>
+            Class that represents a parser of type <typeparamref name="T"/>
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:AlphaX.Parserz.Parser`1.ParseInput(AlphaX.Parserz.IParserState)">
+            <summary>
+            Takes an input state and parses it to new output state.
+            Note: This method will only get called if the input state doesn't have any error.
+            </summary>
+            <param name="inputState">The input state</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlphaX.Parserz.ParserStates.Error(AlphaX.Parserz.IParserState,AlphaX.Parserz.IParserError)">
+            <summary>
+            Creates a new error state.
+            </summary>
+            <param name="inputState">The current state</param>
+            <param name="error">Parser error</param>
+            <returns></returns>
+        </member>
+        <member name="M:AlphaX.Parserz.ParserStates.Result(AlphaX.Parserz.IParserState,AlphaX.Parserz.IParserResult,System.Int32)">
+            <summary>
+            Creates a new result state.
+            </summary>
+            <param name="inputState">Input state</param>
+            <param name="result">Result of the state</param>
+            <param name="index">New index of the state</param>
+            <returns></returns>
+        </member>
+        <member name="T:AlphaX.Parserz.Resources.ParserMessages">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:AlphaX.Parserz.Resources.ParserMessages.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:AlphaX.Parserz.Resources.ParserMessages.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:AlphaX.Parserz.Resources.ParserMessages.AtleastCount">
+            <summary>
+              Looks up a localized string similar to atleast {0} count{1}.
+            </summary>
+        </member>
+        <member name="P:AlphaX.Parserz.Resources.ParserMessages.AtleastOneParserMatch">
+            <summary>
+              Looks up a localized string similar to atleast 1 parser match.
+            </summary>
+        </member>
+        <member name="P:AlphaX.Parserz.Resources.ParserMessages.AtmostCount">
+            <summary>
+              Looks up a localized string similar to atmost {0} count{1}.
+            </summary>
+        </member>
+        <member name="P:AlphaX.Parserz.Resources.ParserMessages.Digits">
+            <summary>
+              Looks up a localized string similar to 0-9.
+            </summary>
+        </member>
+        <member name="P:AlphaX.Parserz.Resources.ParserMessages.EndofInput">
+            <summary>
+              Looks up a localized string similar to end of input.
+            </summary>
+        </member>
+        <member name="P:AlphaX.Parserz.Resources.ParserMessages.GotCount">
+            <summary>
+              Looks up a localized string similar to {0} count{1}.
+            </summary>
+        </member>
+        <member name="P:AlphaX.Parserz.Resources.ParserMessages.InputError">
+            <summary>
+              Looks up a localized string similar to Position ({0}): Expected &apos;{1}&apos;.
+            </summary>
+        </member>
+        <member name="P:AlphaX.Parserz.Resources.ParserMessages.Letters">
+            <summary>
+              Looks up a localized string similar to a-z/A-Z.
+            </summary>
+        </member>
+        <member name="P:AlphaX.Parserz.Resources.ParserMessages.NoParserMatch">
+            <summary>
+              Looks up a localized string similar to 0 parser match.
+            </summary>
+        </member>
+        <member name="P:AlphaX.Parserz.Resources.ParserMessages.TypeConvertError">
+            <summary>
+              Looks up a localized string similar to Unable to parse &apos;{0}&apos; to &apos;{1}&apos;.
+            </summary>
+        </member>
+        <member name="P:AlphaX.Parserz.Resources.ParserMessages.UnexpectedInputError">
+            <summary>
+              Looks up a localized string similar to Position ({0}): Unexpected input. Expected &apos;{1}&apos; but got &apos;{2}&apos;.
+            </summary>
+        </member>
+    </members>
+</doc>

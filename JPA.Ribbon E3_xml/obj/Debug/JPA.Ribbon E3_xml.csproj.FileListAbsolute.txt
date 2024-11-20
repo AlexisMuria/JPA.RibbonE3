@@ -1,0 +1,100 @@
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\JPA.Ribbon E3_xml.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\JPA.Ribbon E3_xml.pdb
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\JPA.Ribbon E3_xml.dll.manifest
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\JPA.Ribbon E3_xml.vsto
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\obj\Debug\JPA.Ribbon E3_xml.csproj.AssemblyReference.cache
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\obj\Debug\JPA.Ribbon_E3_xml.Properties.Resources.resources
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\obj\Debug\JPA.Ribbon E3_xml.csproj.GenerateResource.cache
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\obj\Debug\JPA.Ribbon E3_xml.csproj.CoreCompileInputs.cache
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\obj\Debug\JPA.Ribb.68274B21.Up2Date
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\obj\Debug\JPA.Ribbon E3_xml.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\obj\Debug\JPA.Ribbon E3_xml.pdb
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\obj\Debug\JPA.Ribbon_E3_xml.HelpForm.resources
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\JPA.Ribbon E3_xml.dll.config
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\Azure.AI.FormRecognizer.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\Azure.Core.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\Fozzy.Object.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\Fozzy.System.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\MaterialSkin.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\Microsoft.Kiota.Abstractions.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\Microsoft.Kiota.Serialization.Form.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\Std.UriTemplate.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\System.Buffers.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\System.Memory.Data.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\System.Memory.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\System.Text.Json.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\System.ValueTuple.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\Azure.AI.FormRecognizer.xml
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\Azure.Core.xml
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\Microsoft.Kiota.Abstractions.xml
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\Microsoft.Kiota.Serialization.Form.xml
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\System.Buffers.xml
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\System.Memory.xml
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\System.Memory.Data.xml
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\System.Text.Json.xml
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\System.ValueTuple.xml
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\obj\Debug\JPA.Ribbon_E3_xml.Aprendizaje.resources
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\Newtonsoft.Json.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\YoutubeExtractor.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\Newtonsoft.Json.xml
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\YoutubeExtractor.xml
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\Microsoft.Web.WebView2.Core.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\Microsoft.Web.WebView2.Core.xml
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\OpenCvSharpExtern.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\AlphaX.Parserz.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\OpenCvSharp.Blob.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\OpenCvSharp.CPlusPlus.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\OpenCvSharp.DebuggerVisualizers.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\OpenCvSharp.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\OpenCvSharp.Extensions.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\OpenCvSharp.Gpu.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\OpenCvSharp.MachineLearning.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\OpenCvSharp.UserInterface.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\Refractored.FabControl.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\SkinDetector.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\Syncfusion.Licensing.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\Syncfusion.SfSkinManager.WPF.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\AlphaX.Parserz.xml
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\Refractored.FabControl.pdb
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\Refractored.FabControl.xml
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\Syncfusion.SfSkinManager.WPF.xml
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\calculadora.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\Plugin.InputKit.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\Syncfusion.Buttons.XForms.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\Syncfusion.Core.XForms.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\System.Drawing.Common.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\operaciones.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\calculadora.pdb
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\Plugin.InputKit.xml
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\Syncfusion.Buttons.XForms.xml
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\Syncfusion.Core.XForms.xml
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\operaciones.pdb
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\obj\Debug\JPA.Ribbon E3_xml.csproj.SuggestedBindingRedirects.cache
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\obj\Debug\JPA.Ribbon E3_xml.dll.config

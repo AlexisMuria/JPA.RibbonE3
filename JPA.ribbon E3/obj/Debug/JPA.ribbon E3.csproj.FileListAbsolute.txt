@@ -1,0 +1,13 @@
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.ribbon E3\obj\Debug\JPA.ribbon E3.csproj.AssemblyReference.cache
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.ribbon E3\obj\Debug\JPA.ribbon_E3.Properties.Resources.resources
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.ribbon E3\obj\Debug\JPA.ribbon E3.csproj.GenerateResource.cache
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.ribbon E3\obj\Debug\JPA.ribbon E3.csproj.CoreCompileInputs.cache
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.ribbon E3\bin\Debug\JPA.ribbon E3.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.ribbon E3\bin\Debug\JPA.ribbon E3.pdb
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.ribbon E3\bin\Debug\JPA.ribbon E3.dll.manifest
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.ribbon E3\bin\Debug\JPA.ribbon E3.vsto
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.ribbon E3\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.ribbon E3\obj\Debug\JPA.ribb.F65A209F.Up2Date
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.ribbon E3\obj\Debug\JPA.ribbon E3.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.ribbon E3\obj\Debug\JPA.ribbon E3.pdb
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.ribbon E3\obj\Debug\JPA.ribbon_E3.NotaWord.resources
