@@ -13,3 +13,5 @@ C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.R
 C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\obj\Debug\JPA.Ribb.600A0DD2.Up2Date
 C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\obj\Debug\JPA.RibbonE3.dll
 C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\obj\Debug\JPA.RibbonE3.pdb
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\MaterialSkin.dll

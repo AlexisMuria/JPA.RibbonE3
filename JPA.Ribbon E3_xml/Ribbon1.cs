@@ -50,7 +50,7 @@ namespace JPA.Ribbon_E3_xml
         public void ShowHelpForm(IRibbonControl control)
         {
             HelpForm helpForm = new HelpForm();
-            helpForm.ShowDialog();
+            helpForm.Show();
         }
 
 

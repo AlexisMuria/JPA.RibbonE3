@@ -96,7 +96,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.CausesValidation = false;
             this.ClientSize = new System.Drawing.Size(1002, 673);
-            this.ControlBox = false;
             this.Controls.Add(this.tabControl1);
             this.Enabled = false;
             this.MaximizeBox = false;

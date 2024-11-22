@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace JPA.Ribbon_E3_xml
 {
-    public partial class Aprendizaje : Form
+    public partial class Aprendizaje : MaterialSkin.Controls.MaterialForm
     {
         // Diccionario para almacenar los títulos de los cursos y sus URLs
         private readonly Dictionary<string, string> videos = new Dictionary<string, string>
