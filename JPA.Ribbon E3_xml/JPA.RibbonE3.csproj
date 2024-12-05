@@ -103,14 +103,20 @@
   -->
   <ItemGroup>
     <Reference Include="Accessibility" />
+    <Reference Include="CustomControls.RJControls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\CustomControls.RJControls.1.0.0\lib\net45\CustomControls.RJControls.dll</HintPath>
+    </Reference>
     <Reference Include="FontAwesome.Sharp, Version=6.6.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
       <HintPath>..\packages\FontAwesome.Sharp.6.6.0\lib\net48\FontAwesome.Sharp.dll</HintPath>
     </Reference>
     <Reference Include="MaterialSkin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MaterialSkin.0.2.1\lib\MaterialSkin.dll</HintPath>
+      <HintPath>..\packages\lioncs.MaterialSkin.1.0.0\lib\net461\MaterialSkin.dll</HintPath>
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
+    <Reference Include="RJCodeAdvance.RJControls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\RJCodeAdvance.RJControls.1.0.0\lib\net45\RJCodeAdvance.RJControls.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Data" />
@@ -209,8 +215,20 @@
     <Compile Include="Aprendizaje.Designer.cs">
       <DependentUpon>Aprendizaje.cs</DependentUpon>
     </Compile>
-    <Compile Include="HelpForm.cs">
+    <Compile Include="ConfigImpresoras.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfigImpresoras.Designer.cs">
+      <DependentUpon>ConfigImpresoras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TaskPaneControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TaskPaneControl.Designer.cs">
+      <DependentUpon>TaskPaneControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HelpForm.cs">
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="HelpForm.Designer.cs">
       <DependentUpon>HelpForm.cs</DependentUpon>
@@ -220,6 +238,9 @@
     </Compile>
     <EmbeddedResource Include="Aprendizaje.resx">
       <DependentUpon>Aprendizaje.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigImpresoras.resx">
+      <DependentUpon>ConfigImpresoras.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HelpForm.resx">
       <DependentUpon>HelpForm.cs</DependentUpon>
@@ -234,6 +255,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="TaskPaneControl.resx">
+      <DependentUpon>TaskPaneControl.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="app.config" />
     <None Include="JPA.Ribbon E3_xml_TemporaryKey.pfx" />
     <None Include="packages.config" />

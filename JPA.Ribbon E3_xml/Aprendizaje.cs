@@ -36,115 +36,116 @@ namespace JPA.Ribbon_E3_xml
         private string GenerateVideoHtml(string url)
         {
             return $@"
-        <html>
-            <head>
-                <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css'>
-                <style>
-                    body {{
-                        display: flex;
-                        height: 100vh;
-                        margin: 0;
-                        overflow: hidden;
-                        font-family: Arial, sans-serif;
-                        position: relative;
-                    }}
-                    #sidebar {{
-                        width: 250px;
-                        background-color: #f8f9fa;
-                        padding: 10px;
-                        overflow-y: auto;
-                        position: absolute;
-                        top: 0;
-                        left: 0;
-                        bottom: 0;
-                        transition: transform 0.3s ease;
-                        z-index: 2;
-                        padding-top: 65px;  
-                    }}
-                    #sidebar.hidden {{
-                        transform: translateX(-100%);
-                    }}
-                    #videoContainer {{
-                        flex: 1;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        padding: 10px;
-                        height: 100%;
-                        margin-left: 0;
-                        transition: margin-left 0.3s ease;
-                    }}
-                    iframe {{
-                        width: 100%;
-                        height: 100%;
-                        border: none;
-                    }}
-                    .video-item {{
-                        padding: 10px;
-                        cursor: pointer;
-                        margin-bottom: 5px;
-                        border-radius: 5px;
-                        transition: background-color 0.3s;
-                    }}
-                    .video-item:hover {{
-                        background-color: #007bff;
-                        color: white;
-                    }}
-                    #toggleSidebarButton {{
-                        position: fixed;
-                        top: 10px;
-                        left: 10px;
-                        background-color: #007bff;
-                        color: white;
-                        border: none;
-                        padding: 10px;
-                        cursor: pointer;
-                        border-radius: 5px;
-                        font-size: 20px;
-                        z-index: 3;
-                    }}
-                </style>
-            </head>
-            <body>
-                <button id='toggleSidebarButton' onclick='toggleSidebar()'>☰</button>
-
-                <div id='sidebar'>
-                    <h3>Listado de Cursos</h3>
-                    <ul class='list-unstyled'>
-                        {string.Join("", videoKeys.Select(video => $"<li class='video-item' onclick='changeVideo(\"{videos[video]}\")'>{video}</li>"))}
-                    </ul>
-                </div>
-
-                <div id='videoContainer'>
-                    <iframe id='videoFrame' src='{url.Replace("watch?v=", "embed/")}' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
-                </div>
-
-                <script>
-                    function changeVideo(videoUrl) {{
-                        document.getElementById('videoFrame').src = videoUrl.replace('watch?v=', 'embed/');
-                    }}
-
-                    function toggleSidebar() {{
-                        var sidebar = document.getElementById('sidebar');
-                        var videoContainer = document.getElementById('videoContainer');
-                        sidebar.classList.toggle('hidden');
-                        if (sidebar.classList.contains('hidden')) {{
-                            videoContainer.style.marginLeft = '0';
-                        }} else {{
-                            videoContainer.style.marginLeft = '250px';
+            <html>
+                <head>
+                    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css'>
+                    <style>
+                        body {{
+                            display: flex;
+                            height: 100vh;
+                            margin: 0;
+                            overflow: hidden;
+                            font-family: Arial, sans-serif;
+                            position: relative;
+                            background-color: rgb(230, 230, 230); 
                         }}
-                    }}
+                        #sidebar {{
+                            width: 250px;
+                            background-color: #f8f9fa;
+                            padding: 10px;
+                            overflow-y: auto;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            bottom: 0;
+                            transition: transform 0.3s ease;
+                            z-index: 2;
+                            padding-top: 65px;  
+                        }}
+                        #sidebar.hidden {{
+                            transform: translateX(-100%);
+                        }}
+                        #videoContainer {{
+                            flex: 1;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            padding: 10px;
+                            height: 100%;
+                            margin-left: 0;
+                            transition: margin-left 0.3s ease;
+                        }}
+                        iframe {{
+                            width: 100%;
+                            height: 100%;
+                            border: none;
+                        }}
+                        .video-item {{
+                            padding: 10px;
+                            cursor: pointer;
+                            margin-bottom: 5px;
+                            border-radius: 5px;
+                            transition: background-color 0.3s;
+                        }}
+                        .video-item:hover {{
+                            background-color: #007bff;
+                            color: white;
+                        }}
+                        #toggleSidebarButton {{
+                            position: fixed;
+                            top: 10px;
+                            left: 10px;
+                            background-color: #007bff;
+                            color: white;
+                            border: none;
+                            padding: 10px;
+                            cursor: pointer;
+                            border-radius: 5px;
+                            font-size: 20px;
+                            z-index: 3;
+                        }}
+                    </style>
+                </head>
+                <body>
+                    <button id='toggleSidebarButton' onclick='toggleSidebar()'>☰</button>
 
-                    // Ocultar el sidebar automáticamente después de 1 segundo
-                    window.onload = function() {{
-                        setTimeout(function() {{
+                    <div id='sidebar'>
+                        <h3>Listado de Cursos</h3>
+                        <ul class='list-unstyled'>
+                            {string.Join("", videoKeys.Select(video => $"<li class='video-item' onclick='changeVideo(\"{videos[video]}\")'>{video}</li>"))}
+                        </ul>
+                    </div>
+
+                    <div id='videoContainer'>
+                        <iframe id='videoFrame' src='{url.Replace("watch?v=", "embed/")}' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
+                    </div>
+
+                    <script>
+                        function changeVideo(videoUrl) {{
+                            document.getElementById('videoFrame').src = videoUrl.replace('watch?v=', 'embed/');
+                        }}
+
+                        function toggleSidebar() {{
                             var sidebar = document.getElementById('sidebar');
-                            sidebar.classList.add('hidden');
-                        }}, 1000); // Tiempo en milisegundos (1000ms = 1 segundo)
-                    }};
-                </script>
-            </body>
-        </html>";
+                            var videoContainer = document.getElementById('videoContainer');
+                            sidebar.classList.toggle('hidden');
+                            if (sidebar.classList.contains('hidden')) {{
+                                videoContainer.style.marginLeft = '0';
+                            }} else {{
+                                videoContainer.style.marginLeft = '250px';
+                            }}
+                        }}
+
+                        // Ocultar el sidebar automáticamente después de 1 segundo
+                        window.onload = function() {{
+                            setTimeout(function() {{
+                                var sidebar = document.getElementById('sidebar');
+                                sidebar.classList.add('hidden');
+                            }}, 1000); // Tiempo en milisegundos (1000ms = 1 segundo)
+                        }};
+                    </script>
+                </body>
+            </html>";
         }
 
 
@@ -225,5 +226,11 @@ namespace JPA.Ribbon_E3_xml
                 MessageBox.Show("Este es el primer video.");
             }
         }
+
+        private void Cerrar_Click(object sender, EventArgs e)
+        {
+              this.Close();
+        }
+
     }
 }

@@ -7,7 +7,7 @@ using Word = Microsoft.Office.Interop.Word;
 
 namespace JPA.Ribbon_E3_xml
 {
-    public partial class HelpForm : MaterialSkin.Controls.MaterialForm
+    public partial class HelpForm : UserControl
     {
         public HelpForm()
         {
@@ -16,18 +16,20 @@ namespace JPA.Ribbon_E3_xml
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            // HTML actualizado con Bootstrap y diseño de acordeón
             string htmlContent = @"
                 <html>
                 <head>
+                    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
                     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css'>
                     <style>
-                        body { font-family: Arial, sans-serif; color: #333; line-height: 1.6; margin: 10px; }
-                        .container { max-width: 800px; margin: 0 auto; }
-                        h1 { color: #007bff; font-size: 26px; text-align: center; margin-bottom: 30px; }
-                        .card-header { background-color: #f7f7f7; cursor: pointer; }
-                        .card-body { color: #333; }
+                        body { font-family: Arial, sans-serif; color: #333; line-height: 1.6; margin: 5px; padding: 0; }
+                        .container { max-width: 350px; margin: 0 auto; }
+                        h1 { color: #007bff; font-size: 22px; text-align: center; margin-bottom: 20px; }
+                        .card-header { background-color: #f7f7f7; cursor: pointer; font-size: 16px; }
+                        .card-body { color: #333; font-size: 14px; }
                         .question { color: #C0504D; font-weight: bold; }
+                        .solution { margin-top: 5px; display: block; }
+                        ul { padding-left: 20px; }
                     </style>
                 </head>
                 <body>
@@ -35,7 +37,6 @@ namespace JPA.Ribbon_E3_xml
                         <h1>FAQ - Preguntas Más Frecuentes NotaWord</h1>
                         <div id='accordion'>
 
-                         
                             <div class='card'>
                                 <div class='card-header' id='headingOne'>
                                     <h5 class='mb-0'>
@@ -49,9 +50,9 @@ namespace JPA.Ribbon_E3_xml
                                         <ul>
                                             <li><span class='question'>Pregunta:</span> ¿Por qué la barra de NotaWord está deshabilitada?</li>
                                             <li><span class='solution'>Posible solución:</span> Asegúrate de que NotaWord esté correctamente instalado y actualizado.</li>
-                                            <li><span class='solution'>Posible solución:</span> Asegúrate de que el servidor esté encendido y se tenga acceso a la unidad de red.
+                                            <li><span class='solution'>Posible solución:</span> Asegúrate de que el servidor esté encendido y tengas acceso a la unidad de red.
                                                 <a href='https://youtu.be/0FEqu8Tt5oI'>VÍDEO AQUÍ</a></li>
-                                            <li><span class='solution'>Posible solución:</span> Si se ha producido un cambio de equipo, asegúrate que tu técnico ha contactado con JPA para configurar nuestros programas.</li>
+                                            <li><span class='solution'>Posible solución:</span> Si se ha producido un cambio de equipo, asegúrate de que tu técnico ha contactado con JPA para configurar nuestros programas.</li>
                                             <li><span class='solution'>Verifica también la configuración de tu aplicación para habilitar la barra de NotaWord.
                                                 <a href='https://youtu.be/eE_vBDgjF_8'>VÍDEO AQUÍ</a></li>
                                         </ul>
@@ -78,16 +79,16 @@ namespace JPA.Ribbon_E3_xml
                                     </div>
                                 </div>
                             </div>
-                          
+
                             <div class='card'>
-                                <div class='card-header' id='headingTree'>
+                                <div class='card-header' id='headingThree'>
                                     <h5 class='mb-0'>
-                                        <button class='btn btn-link collapsed' data-toggle='collapse' data-target='#collapseTree' aria-expanded='false' aria-controls='collapseTree'>
+                                        <button class='btn btn-link collapsed' data-toggle='collapse' data-target='#collapseThree' aria-expanded='false' aria-controls='collapseThree'>
                                             3.- PESTAÑA PE DESHABILITADA
                                         </button>
                                     </h5>
                                 </div>
-                                <div id='collapseTree' class='collapse' aria-labelledby='headingTree' data-parent='#accordion'>
+                                <div id='collapseThree' class='collapse' aria-labelledby='headingThree' data-parent='#accordion'>
                                     <div class='card-body'>
                                         <ul>
                                             <li><span class='question'>Pregunta:</span> ¿Por qué la pestaña de PE está deshabilitada?</li>
@@ -98,16 +99,16 @@ namespace JPA.Ribbon_E3_xml
                                     </div>
                                 </div>
                             </div>
-                      
+
                             <div class='card'>
-                                <div class='card-header' id='headingfour'>
+                                <div class='card-header' id='headingFour'>
                                     <h5 class='mb-0'>
-                                        <button class='btn btn-link collapsed' data-toggle='collapse' data-target='#collapsefour' aria-expanded='false' aria-controls='collapsefour'>
+                                        <button class='btn btn-link collapsed' data-toggle='collapse' data-target='#collapseFour' aria-expanded='false' aria-controls='collapseFour'>
                                             4.- IMPRESORA Y BANDEJA POR DEFECTO
                                         </button>
                                     </h5>
                                 </div>
-                                <div id='collapsefour' class='collapse' aria-labelledby='headingfour' data-parent='#accordion'>
+                                <div id='collapseFour' class='collapse' aria-labelledby='headingFour' data-parent='#accordion'>
                                     <div class='card-body'>
                                         <ul>
                                             <li><span class='question'>Pregunta:</span> ¿Cómo configurar mi impresora y bandejas predeterminadas en NotaWord?</li>
@@ -119,14 +120,14 @@ namespace JPA.Ribbon_E3_xml
                             </div>
 
                             <div class='card'>
-                                <div class='card-header' id='headingfive'>
+                                <div class='card-header' id='headingFive'>
                                     <h5 class='mb-0'>
-                                        <button class='btn btn-link collapsed' data-toggle='collapse' data-target='#collapsefive' aria-expanded='false' aria-controls='collapsefive'>
+                                        <button class='btn btn-link collapsed' data-toggle='collapse' data-target='#collapseFive' aria-expanded='false' aria-controls='collapseFive'>
                                            5.- PE. ICONO DILIGENCIA EN ROJO Y ESTÁ FIRMADA
                                         </button>
                                     </h5>
                                 </div>
-                                <div id='collapsefive' class='collapse' aria-labelledby='headingfive' data-parent='#accordion'>
+                                <div id='collapseFive' class='collapse' aria-labelledby='headingFive' data-parent='#accordion'>
                                     <div class='card-body'>
                                         <ul>
                                             <li><span class='question'>Pregunta:</span> ¿Qué debo hacer si el icono de la diligencia está en rojo y está firmada en signo?</li>
@@ -149,7 +150,7 @@ namespace JPA.Ribbon_E3_xml
                                 <div id='collapseSix' class='collapse' aria-labelledby='headingSix' data-parent='#accordion'>
                                     <div class='card-body'>
                                         <ul>
-                                            <li><span class='question'>Pregunta:</span>  ¿Por qué no puedo agregar diligencias y notas?</li>
+                                            <li><span class='question'>Pregunta:</span> ¿Por qué no puedo agregar diligencias y notas?</li>
                                             <li><span class='solution'>Posible solución:</span> Asegúrate de que estás trabajando con documentos en formato compatible a docx.
                                                 <a href='https://youtu.be/1_mGvAyaDLE'>VÍDEO AQUÍ</a></li>
                                         </ul>
@@ -164,98 +165,88 @@ namespace JPA.Ribbon_E3_xml
                 </body>
                 </html>";
 
-            // Establece el contenido HTML en el WebBrowser
             webBrowser1.DocumentText = htmlContent;
-
         }
+
         private void contacto_Load(object sender, EventArgs e)
         {
-            // Contenido HTML con diseño Bootstrap mejorado para el contacto
             string htmlContent = @"
                 <html>
                 <head>
-                    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css'>
+                    <meta name=""viewport"" content=""width=device-width, initial-scale=1"">
+                    <link rel=""stylesheet"" href=""https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"">
                     <style>
-                        body { font-family: Arial, sans-serif; color: #333; margin: 20px; }
-                        .container { max-width: 800px; margin: 0 auto; padding-top: 20px; }
-                        h1 { color: #007bff; font-size: 26px; text-align: center; margin-bottom: 30px; }
-                        .card-header { background-color: #f8f9fa; cursor: pointer; }
-                        .contact-section { margin-top: 20px; }
-                        .contact-card { margin-bottom: 20px; text-align: center; border: 1px solid #ddd; border-radius: 8px; padding: 15px; }
-                        .contact-card img { margin-bottom: 15px; }
-                        .contact-card h4 { color: #343a40; font-weight: bold; }
-                        .contact-card p { margin: 0; color: #666; }
-                        .btn-email { margin-top: 10px; }
+                        body { font-family: Arial, sans-serif; margin: 10px; color: #333; }
+                        .container { max-width: 100%; margin: 0 auto; padding: 0 10px; }
+                        h1 { font-size: 20px; text-align: center; color: #007bff; margin-bottom: 20px; }
+                        .card { margin-bottom: 20px; }
+                        .contact-card { text-align: center; padding: 10px; border: 1px solid #ddd; border-radius: 8px; }
+                        .contact-card img { width: 40px; margin-bottom: 10px; }
+                        .contact-card h4 { font-size: 16px; color: #343a40; }
+                        .contact-card p { font-size: 14px; }
+                        .btn-email { font-size: 14px; }
                     </style>
                 </head>
                 <body>
-                    <div class='container'>
+                    <div class=""container"">
                         <h1>Solicitar una Demostración o Más Información</h1>
-                
-                        <!-- Formulario de Contacto -->
-                        <div class='card mb-4'>
-                            <div class='card-header'>Formulario de Contacto</div>
-                            <div class='card-body'>
+        
+                        <!-- Formulario de contacto -->
+                        <div class=""card"">
+                            <div class=""card-header"">Formulario de Contacto</div>
+                            <div class=""card-body"">
                                 <form>
-                                    <div class='form-group'>
-                                        <label for='email'>Correo Electrónico</label>
-                                        <input type='email' class='form-control' id='email' placeholder='hola@ejemplo.com' required>
+                                    <div class=""form-group"">
+                                        <label for=""email"">Correo Electrónico</label>
+                                        <input type=""email"" class=""form-control"" id=""email"" placeholder=""hola@ejemplo.com"" required>
                                     </div>
-                                    <div class='form-group'>
-                                        <label for='message'>Solicitar Información de JPA</label>
-                                        <textarea class='form-control' id='message' rows='3' required></textarea>
+                                    <div class=""form-group"">
+                                        <label for=""message"">Solicitar Información de JPA</label>
+                                        <textarea class=""form-control"" id=""message"" rows=""3"" required></textarea>
                                     </div>
-                                    <div class='form-check'>
-                                        <input type='checkbox' class='form-check-input' id='terms' required>
-                                        <label class='form-check-label' for='terms'>Acepto la <a href='https://jpainformatica.info/politica-de-privacidad' target='_blank'>política de privacidad</a></label>
+                                    <div class=""form-check"">
+                                        <input type=""checkbox"" class=""form-check-input"" id=""terms"" required>
+                                        <label class=""form-check-label"" for=""terms"">Acepto la <a href=""https://jpainformatica.info/politica-de-privacidad"" target=""_blank"">política de privacidad</a></label>
                                     </div>
-                                    <button type='submit' class='btn btn-primary btn-block mt-3'>Enviar</button>
+                                    <button type=""submit"" class=""btn btn-primary btn-block mt-3"">Enviar</button>
                                 </form>
                             </div>
                         </div>
 
-                        <!-- Sección de Contacto -->
-                        <div class='contact-section'>
-                            <div class='row'>
-                        
-                                <!-- Sede Central -->
-                                <div class='col-md-4 contact-card'>
-                                    <img src='https://basekit-product.s3-eu-west-1.amazonaws.com/icons/icon-1.svg' alt='Sede Central' width='60'>
-                                    <h4>Sede Central</h4>
-                                    <p>Calle Juan de Herrera, 5<br>(03203) Elche, Alicante</p>
-                                    <p>Tel: 96 665 10 56</p>
-                                    <a href='mailto:info@jpasl.com' class='btn btn-outline-primary btn-email'>Email Contacto</a>
-                                </div>
+                        <!-- Contactos -->
+                        <div class=""row"">
+                            <div class=""col-12 contact-card"">
+                                <img src=""https://basekit-product.s3-eu-west-1.amazonaws.com/icons/icon-1.svg"" alt=""Sede Central"">
+                                <h4>Sede Central</h4>
+                                <p>Calle Juan de Herrera, 5<br>(03203) Elche, Alicante</p>
+                                <p>Tel: 96 665 10 56</p>
+                                <a href=""mailto:info@jpasl.com"" class=""btn btn-outline-primary btn-email"">Email Contacto</a>
+                            </div>
 
-                                <!-- Delegación Barcelona -->
-                                <div class='col-md-4 contact-card'>
-                                    <img src='https://basekit-product.s3-eu-west-1.amazonaws.com/icons/icon-2.svg' alt='Delegación Barcelona' width='60'>
-                                    <h4>Delegación Barcelona</h4>
-                                    <p>Ronda Universidad, 12<br>Planta 3, Despacho 5<br>(08007) Barcelona</p>
-                                    <p>Tel: 93260 22 11</p>
-                                    <a href='mailto:info@jpasl.com' class='btn btn-outline-primary btn-email'>Email Contacto</a>
-                                </div>
+                            <div class=""col-12 contact-card"">
+                                <img src=""https://basekit-product.s3-eu-west-1.amazonaws.com/icons/icon-2.svg"" alt=""Delegación Barcelona"">
+                                <h4>Delegación Barcelona</h4>
+                                <p>Ronda Universidad, 12<br>(08007) Barcelona</p>
+                                <p>Tel: 93260 22 11</p>
+                                <a href=""mailto:info@jpasl.com"" class=""btn btn-outline-primary btn-email"">Email Contacto</a>
+                            </div>
 
-                                <!-- Delegación Sevilla -->
-                                <div class='col-md-4 contact-card'>
-                                    <img src='https://basekit-product.s3-eu-west-1.amazonaws.com/icons/icon-3.svg' alt='Delegación Sevilla' width='60'>
-                                    <h4>Delegación Sevilla</h4>
-                                    <p>Duquesa de Alba, 40<br>(41807) Espartinas, Sevilla</p>
-                                    <p>Tel: 647 73 42 65</p>
-                                    <a href='mailto:antoniolopez@jpainformatica.es' class='btn btn-outline-primary btn-email'>Email Contacto</a>
-                                </div>
-
+                            <div class=""col-12 contact-card"">
+                                <img src=""https://basekit-product.s3-eu-west-1.amazonaws.com/icons/icon-3.svg"" alt=""Delegación Sevilla"">
+                                <h4>Delegación Sevilla</h4>
+                                <p>Duquesa de Alba, 40<br>(41807) Espartinas, Sevilla</p>
+                                <p>Tel: 647 73 42 65</p>
+                                <a href=""mailto:antoniolopez@jpainformatica.es"" class=""btn btn-outline-primary btn-email"">Email Contacto</a>
                             </div>
                         </div>
                     </div>
-            
-                    <!-- JavaScript para Bootstrap -->
-                    <script src='https://code.jquery.com/jquery-3.5.1.slim.min.js'></script>
-                    <script src='https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js'></script>
-                </body>
-                </html>";
 
-            // Establece el contenido HTML en el WebBrowser
+                    <script src=""https://code.jquery.com/jquery-3.5.1.slim.min.js""></script>
+                    <script src=""https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js""></script>
+                </body>
+                </html>
+                "
+                ;
             webBrowser2.DocumentText = htmlContent;
         }
 
@@ -307,6 +298,7 @@ namespace JPA.Ribbon_E3_xml
 
             e.ReturnValue = false; // Evita la navegación predeterminada en el WebBrowser
         }
+
 
     }
 }

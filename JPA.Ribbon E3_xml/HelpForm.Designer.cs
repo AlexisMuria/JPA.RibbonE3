@@ -42,10 +42,10 @@
             // 
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Location = new System.Drawing.Point(1, 64);
+            this.tabControl1.Location = new System.Drawing.Point(6, 3);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1003, 609);
+            this.tabControl1.Size = new System.Drawing.Size(405, 799);
             this.tabControl1.TabIndex = 11;
             this.tabControl1.Click += new System.EventHandler(this.contacto_Load);
             // 
@@ -55,7 +55,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(995, 583);
+            this.tabPage1.Size = new System.Drawing.Size(397, 773);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Preguntas";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -66,7 +66,7 @@
             this.webBrowser1.Location = new System.Drawing.Point(3, 3);
             this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(989, 577);
+            this.webBrowser1.Size = new System.Drawing.Size(391, 767);
             this.webBrowser1.TabIndex = 0;
             this.webBrowser1.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webBrowser1_DocumentCompleted);
             // 
@@ -76,7 +76,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(995, 583);
+            this.tabPage2.Size = new System.Drawing.Size(982, 599);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Conctatos";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -87,26 +87,20 @@
             this.webBrowser2.Location = new System.Drawing.Point(3, 3);
             this.webBrowser2.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser2.Name = "webBrowser2";
-            this.webBrowser2.Size = new System.Drawing.Size(989, 577);
+            this.webBrowser2.Size = new System.Drawing.Size(976, 593);
             this.webBrowser2.TabIndex = 0;
             this.webBrowser2.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webBrowser2_DocumentCompleted);
             // 
             // HelpForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
             this.CausesValidation = false;
-            this.ClientSize = new System.Drawing.Size(1002, 673);
             this.Controls.Add(this.tabControl1);
-            this.Enabled = false;
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
             this.Name = "HelpForm";
-            this.ShowIcon = false;
-            this.ShowInTaskbar = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Ayuda";
-            this.TopMost = true;
+            this.Size = new System.Drawing.Size(414, 805);
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.Click += new System.EventHandler(this.Form1_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);

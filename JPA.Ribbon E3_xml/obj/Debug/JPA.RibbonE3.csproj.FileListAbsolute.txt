@@ -15,3 +15,7 @@ C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.R
 C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\obj\Debug\JPA.RibbonE3.pdb
 C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\FontAwesome.Sharp.dll
 C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\MaterialSkin.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\CustomControls.RJControls.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\bin\Debug\RJCodeAdvance.RJControls.dll
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\obj\Debug\JPA.RibbonE3.TaskPaneControl.resources
+C:\Users\TRASPASO\Documents\MEGA\Practicas de C\JPA.RibbonE3\JPA.ribbon E3\JPA.Ribbon E3_xml\obj\Debug\JPA.Ribbon_E3_xml.ConfigImpresoras.resources

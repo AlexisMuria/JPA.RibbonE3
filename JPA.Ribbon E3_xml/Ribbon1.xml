@@ -66,7 +66,7 @@
 					<button id="Btn_Firmas" imageMso="SaveAndClose" screentip="Copiar archivo activo al directorio Firma" supertip="Ctrl + S" label="Firmas" size="large" />
 					<button id="Btn_Protolizar" imageMso="SaveAsQuery" screentip="Protocolizar Documentos o Poliza" supertip="Ctrl + P" label="Protocolizar" size="large" />
 					<button id="Btn_Llamar_Protocolo" imageMso="AdpDiagramTableModesMenu" screentip="Llamar Protocolo" label="Llamar Protocolo" size="large" />
-					<button id="Btn_Impresora" imageMso="PrintMenu" screentip="Imprime Documentos" supertip="Ctrl + I" label="Impresora" size="large" />
+					<button id="Btn_Impresora" imageMso="PrintMenu" screentip="Imprime Documentos" supertip="Ctrl + I" label="Impresora" size="large" onAction="ShowTaskPane" />
 					<button id="Btn_PDF"  image="Pdf2" screentip="Convertir en PDF" label="PDF" size="large" showImage="true" />
 					<button id="Btn_Encriptar_PDF"  image="CerrarPdf" screentip="Conversión y Encriptación PDF" label="Encriptar PDF" size="large" />
 					<button id="Btn_NotaSearch"  image="NotaSearch"  screentip="Buscador De Documentos" supertip="Ctrl + Y" label="NotaSearch" size="large" />

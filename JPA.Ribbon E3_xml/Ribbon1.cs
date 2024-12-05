@@ -1,4 +1,6 @@
-﻿using Microsoft.Office.Core;
+﻿using JPA.RibbonE3;
+using Microsoft.Office.Core;
+using Microsoft.Office.Interop.Word;
 using System;
 using System.IO;
 using System.Reflection;
@@ -16,6 +18,10 @@ namespace JPA.Ribbon_E3_xml
         private bool isOficialesVisible = false;
         private bool isCopiasVisible = false;
         private bool isHerramientasVisible = false;
+        private Microsoft.Office.Tools.CustomTaskPane taskPane;
+        private Microsoft.Office.Tools.CustomTaskPane taskPaneAyuda;
+
+
         public Ribbon1()
         {
         }
@@ -47,10 +53,41 @@ namespace JPA.Ribbon_E3_xml
             }
             return image;
         }
+
         public void ShowHelpForm(IRibbonControl control)
         {
-            HelpForm helpForm = new HelpForm();
-            helpForm.Show();
+            if (taskPaneAyuda == null)
+            {
+                HelpForm helpForm = new HelpForm();
+                taskPaneAyuda = Globals.ThisAddIn.CustomTaskPanes.Add(helpForm, "Ayuda NotaWordE3");
+                taskPaneAyuda.DockPosition = Office.MsoCTPDockPosition.msoCTPDockPositionLeft;
+                taskPaneAyuda.Width = 430;
+            }
+
+            if (taskPane != null && taskPane.Visible)
+            {
+                taskPane.Visible = false;
+            }
+
+            taskPaneAyuda.Visible = !taskPaneAyuda.Visible;
+        }
+
+        public void ShowTaskPane(IRibbonControl control)
+        {
+            if (taskPane == null)
+            {
+                TaskPaneControl taskPaneControl = new TaskPaneControl();
+                taskPane = Globals.ThisAddIn.CustomTaskPanes.Add(taskPaneControl, "Imprimir Documento");
+                taskPane.DockPosition = Office.MsoCTPDockPosition.msoCTPDockPositionLeft;
+                taskPane.Width = 425;
+            }
+
+            if (taskPaneAyuda != null && taskPaneAyuda.Visible)
+            {
+                taskPaneAyuda.Visible = false;
+            }
+
+            taskPane.Visible = !taskPane.Visible;
         }
 
 

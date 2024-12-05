@@ -177,6 +177,18 @@
     </dependentAssembly>
   </dependency>
   <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CustomControls.RJControls.dll" size="1339904">
+      <assemblyIdentity name="CustomControls.RJControls" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>0Uqf/I/rKYH6tRys07Lj9AMskfxt4xZmvA1cIka3ChQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FontAwesome.Sharp.dll" size="817664">
       <assemblyIdentity name="FontAwesome.Sharp" version="6.6.0.0" publicKeyToken="D16D1E4E568EC10F" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -189,26 +201,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JPA.RibbonE3.dll" size="377856">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JPA.RibbonE3.dll" size="403968">
       <assemblyIdentity name="JPA.RibbonE3" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>oCO9bvIkO1HKkLJ7dQooEReBGeQniUejDq10owxGIZ0=</dsig:DigestValue>
+        <dsig:DigestValue>8xKkAPEbBLsBFM3eHYmTstVj7jlxrkewLnlhlsfTVTg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MaterialSkin.dll" size="587776">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MaterialSkin.dll" size="6624768">
       <assemblyIdentity name="MaterialSkin" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>uYed8V6CxS6RZscfexd8V71MgomCGmWp0/Uiiz9ga04=</dsig:DigestValue>
+        <dsig:DigestValue>hUbFHjGyzlSxXoejsRx1wazjvB5Lf4uHhttFzzBubDw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -221,6 +233,18 @@
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
         <dsig:DigestValue>jLCTF8Mm6bD4PDN+rnzN6q0+ReXaNgPh68kMWgatFwI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RJCodeAdvance.RJControls.dll" size="40448">
+      <assemblyIdentity name="RJCodeAdvance.RJControls" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>kB+ZbncF3Aaf0YBAKDqpeSRveTsDxIGUxNvpwUZQdM8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -256,4 +280,4 @@
       </vstov4:customizations>
     </vstav3:application>
   </vstav3:addIn>
-<publisherIdentity name="CN=TRASPASO_PC_2\TRASPASO" issuerKeyHash="6dd6c766828c6052b0aa397329114c9d5d8f4505" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>jkKIPuQ9Nz7kflA9Y4sGZwL8pHlUk649oQaaYWH2CPc=</DigestValue></Reference></SignedInfo><SignatureValue>HwmQppnxujmV67kLMk7uNTpTlx8Tqmk2Od4oXdNw6EnJDUzVUZ4k+uJFLZHVRXSWs4QT0F7+nOaw9/esd3xcAwLCG/7kFrLZdZ+AmIJMT0TJED2zAZGrRZrYIOsKB+zJtxeDI4xuNM0X016kWKFkOG4SpgI9MpYSMLmrOrjJZyQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>6np4KqfDkr3zDZJITExc37dRWRf2u7aAIhaWJfNwoiJkxXg6zxMrPi/bRl/pK5SRFn5iuw61FwUJnPl/wRTSle3Ol8CoVhNzJqgELsCLcLAR3ejKn/iR+4pmOnNsMRQzlsn/ozuYBkBYy+3aRBjaubSWMHhL4a4ewWZ6tM9nc+k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f708f661619a06a13dae935479a4fc0267068b633d507ee43e373de43e88428e" Description="" Url=""><as:assemblyIdentity name="JPA.RibbonE3.dll" version="1.0.0.0" publicKeyToken="d961c89290fc8a57" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=TRASPASO_PC_2\TRASPASO</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>g2lYRChtGkrKCK+P8vcAqgjmlu8p0AP9laej0b0day0=</DigestValue></Reference></SignedInfo><SignatureValue>mYlrUfMgavvo/OJ5ygBOLHICAvAKy0NrYrkO8/lLiFo2qQjRMvgPvvsKIBmhL6HnwtJe38fJI+phCJKPziaMnj/jQJHf1Y3iSTkr8CmjPmzqdk8JVWxjgDP80P3PH8z9TvNjXAyxLwqzig/qWtnYs6nX9waSVwaQaitGoIbKsf4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>6np4KqfDkr3zDZJITExc37dRWRf2u7aAIhaWJfNwoiJkxXg6zxMrPi/bRl/pK5SRFn5iuw61FwUJnPl/wRTSle3Ol8CoVhNzJqgELsCLcLAR3ejKn/iR+4pmOnNsMRQzlsn/ozuYBkBYy+3aRBjaubSWMHhL4a4ewWZ6tM9nc+k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQJj8OzOYzZ6NAoV5verTQHTANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwAVABSAEEAUwBQAEEAUwBPAF8AUABDAF8AMgBcAFQAUgBBAFMAUABBAFMATzAeFw0yNDExMDcxMTMzNTJaFw0yNTExMDcxNzMzNTJaMDcxNTAzBgNVBAMeLABUAFIAQQBTAFAAQQBTAE8AXwBQAEMAXwAyAFwAVABSAEEAUwBQAEEAUwBPMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDqengqp8OSvfMNkkhMTFzft1FZF/a7toAiFpYl83CiImTFeDrPEys+L9tGX+krlJEWfmK7DrUXBQmc+X/BFNKV7c6XwKhWE3MmqAQuwItwsBHd6Mqf+JH7imY6c2wxFDOWyf+jO5gGQFjL7dpEGNq5tJYweEvhrh7BZnq0z2dz6QIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAHdvSRy5YFLPZ0gw2pqDFGUdWH1pM5aSph0c8SPg2JxVK4FNYkZ1t3yQJHwP9rlF3Ip/uK2u28snukm3Is2rsYAl4ErqDtsevlP+QDMOy3VJPgLMGCME/QmW8GTyLwUgoe0l8MT1HsO6PRKkzYuxF09swZCBcPLFoYE0tXNaT69P</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
+<publisherIdentity name="CN=TRASPASO_PC_2\TRASPASO" issuerKeyHash="6dd6c766828c6052b0aa397329114c9d5d8f4505" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>u3MlUGbCKG4Y0D1F7/yIwa8AIDHjK+NPmTfN8iwSAVc=</DigestValue></Reference></SignedInfo><SignatureValue>bUERJZhoE/DzcjJbTXiVff0eF9xK5LLQ0p8ZlN4GjDevBBTSqZSexKVtL9bGC23LUsUCfT5jsBH4IkAGU66CLO2Fz9Be1Px32eA4jW08FJPnC+GqQ71l4QKRMEyHrFN2qiuL5+j81NVbm5iPSQRuxF/e6VRH5p2y7jIIbgMkLZI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>6np4KqfDkr3zDZJITExc37dRWRf2u7aAIhaWJfNwoiJkxXg6zxMrPi/bRl/pK5SRFn5iuw61FwUJnPl/wRTSle3Ol8CoVhNzJqgELsCLcLAR3ejKn/iR+4pmOnNsMRQzlsn/ozuYBkBYy+3aRBjaubSWMHhL4a4ewWZ6tM9nc+k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5701122cf2cd37994fe32be3312000afc188fcef453dd0186e28c266502573bb" Description="" Url=""><as:assemblyIdentity name="JPA.RibbonE3.dll" version="1.0.0.0" publicKeyToken="d961c89290fc8a57" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=TRASPASO_PC_2\TRASPASO</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>5L2ycxQDiVys5d+Oz/l9nMvWDiUHY6qZ5VRq74OdIlY=</DigestValue></Reference></SignedInfo><SignatureValue>eJRqQTNpOOI66kf/08IO8dtvo9nlx31qQFGmDs8zKCA+FfdjxF5kitqaue9k7bdRKUQaxfcKFLECS7TXy4hlnIeCWhUokT+dA0CUQ6xWh9Cz1WEBSHAkqE8Ryd/M5+YgdAGcXd1oGy7NUHx1tX1aABquepczzWjj6Ku9CzKSSCY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>6np4KqfDkr3zDZJITExc37dRWRf2u7aAIhaWJfNwoiJkxXg6zxMrPi/bRl/pK5SRFn5iuw61FwUJnPl/wRTSle3Ol8CoVhNzJqgELsCLcLAR3ejKn/iR+4pmOnNsMRQzlsn/ozuYBkBYy+3aRBjaubSWMHhL4a4ewWZ6tM9nc+k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQJj8OzOYzZ6NAoV5verTQHTANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwAVABSAEEAUwBQAEEAUwBPAF8AUABDAF8AMgBcAFQAUgBBAFMAUABBAFMATzAeFw0yNDExMDcxMTMzNTJaFw0yNTExMDcxNzMzNTJaMDcxNTAzBgNVBAMeLABUAFIAQQBTAFAAQQBTAE8AXwBQAEMAXwAyAFwAVABSAEEAUwBQAEEAUwBPMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDqengqp8OSvfMNkkhMTFzft1FZF/a7toAiFpYl83CiImTFeDrPEys+L9tGX+krlJEWfmK7DrUXBQmc+X/BFNKV7c6XwKhWE3MmqAQuwItwsBHd6Mqf+JH7imY6c2wxFDOWyf+jO5gGQFjL7dpEGNq5tJYweEvhrh7BZnq0z2dz6QIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAHdvSRy5YFLPZ0gw2pqDFGUdWH1pM5aSph0c8SPg2JxVK4FNYkZ1t3yQJHwP9rlF3Ip/uK2u28snukm3Is2rsYAl4ErqDtsevlP+QDMOy3VJPgLMGCME/QmW8GTyLwUgoe0l8MT1HsO6PRKkzYuxF09swZCBcPLFoYE0tXNaT69P</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
